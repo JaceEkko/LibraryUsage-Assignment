@@ -1,0 +1,81 @@
+.HeaderDiv{
+  display: flex;
+  justify-content: flex-start;
+  flex-wrap: wrap;
+}
+.HeaderIcon{
+  width:8vmin;
+  height:10vmin;
+  margin: 2vmin 0 0 2vmin;
+}
+.HeaderText{
+  font-size: 9vmin;
+  margin: 2vmin 0 0 2vmin;
+  font-family: 'Open Sans Condensed', sans-serif;
+}
+
+.MainDiv{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.Screen{
+  position: absolute;
+  display: flex;
+  justify-content: center;
+  top:33px;
+  width:50vmin;
+}
+.Inception{
+  display: flex;
+  justify-content: center;
+  left: 50%;
+}
+
+.Center *{
+  display: flex;
+  justify-content: center;
+}
+
+.Thin{
+  width:37vmin;
+  height: 67vmin;
+}
+
+.IconAlign{
+  position: absolute;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  top: 10%;
+}
+
+.Column{
+  display: flex;
+  flex-direction: column;
+}
+
+button{
+  background-color: rgba(255,255,255,0);
+  border-style: none;
+  font-size: 20vmin;
+}
+.ButtonTextRight{
+  color: lightgrey;
+  font-family: 'Baloo Bhai', cursive;
+  text-shadow: 1px 1px black;
+}
+.ButtonTextLeft{
+  color: lightgrey;
+  font-family: 'Baloo Bhai', cursive;
+  text-shadow: -1px 1px black;
+}
+.ButtonAlignCenter{
+  position: absolute;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* top: 15vmin;
+  left: 45vmin; */
+}
